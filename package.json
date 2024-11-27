@@ -273,6 +273,24 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jdsyt.zip",
                 "download_filename": "jdsyt.zip",
                 "md5": "625b62efb7a005ab210f5c50e3cc78f5"
+            },
+            {
+                "uuid": "52e0763c-5344-434b-b2ae-686931f7f098",
+                "name": "wechat_dianyuan",
+                "title": "微信 - 店员",
+                "type": 1,
+                "description": "微信 - 店员",
+                "author": "",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1732716320,
+                "version": "1.4.5",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/wechat_dianyuan.zip",
+                "download_filename": "wechat_dianyuan.zip",
+                "md5": "aaee2de8be04665b392f0f3c70c823b3"
             }
         ]
     }
