@@ -219,7 +219,25 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_wmwechat_message.zip",
                 "download_filename": "jk_wmwechat_message.zip",
                 "md5": "129180e03f20a6f0c553c6a6b30bb22f"
-            }, 
+            },  
+            {
+                "uuid": "af92b79b-2a57-405b-9a4c-55d70aba28dd",
+                "name": "alipay_bill",
+                "title": "支付宝-商家账单",
+                "type": 1,
+                "description": "使用商家账单进行同步支付状态",
+                "author": "",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1732716320,
+                "version": "1.4.5",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/alipay_bill.zip",
+                "download_filename": "alipay_bill.zip",
+                "md5": "18e861db208b527b9dfeb627e6c3fa42"
+            },
             {
                 "uuid": "dc844c62-99e9-48eb-b8ca-7b5b500b5e0c",
                 "name": "jk_yinsheng",
