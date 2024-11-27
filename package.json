@@ -18,7 +18,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_qqpay.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_qqpay.zip",
                 "download_filename": "jk_qqpay.zip",
                 "md5": "7dcf1205db2b278ad81ad0f3764d12a3"
             },
@@ -36,7 +36,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_wechat.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat.zip",
                 "download_filename": "jk_wechat.zip",
                 "md5": "9f9ae3c49f917445ce56db2025f8cde6"
             },
@@ -54,7 +54,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_alipay.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_alipay.zip",
                 "download_filename": "jk_alipay.zip",
                 "md5": "964986225c5daf2e2c93aab2ec93ec83"
             },
@@ -72,7 +72,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_jdsyt.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_jdsyt.zip",
                 "download_filename": "jk_jdsyt.zip",
                 "md5": "fbcfe832bcec33f0c5344270f82e1dfe"
             },
@@ -90,7 +90,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_alipay_xd.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_alipay_xd.zip",
                 "download_filename": "yun_alipay_xd.zip",
                 "md5": "6c707f80c9c3f5246b54cc0b86b6af1e"
             },
@@ -108,7 +108,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_wechat_xd.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_xd.zip",
                 "download_filename": "yun_wechat_xd.zip",
                 "md5": "719c3fe1cd5e0996f794ea95a37dbe32"
             },
@@ -126,7 +126,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_wechat_uos_xd.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_uos_xd.zip",
                 "download_filename": "yun_wechat_uos_xd.zip",
                 "md5": "9f401cd48a8b993579ad684bd4d47716"
             },
@@ -144,7 +144,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_wechat_uos.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_uos.zip",
                 "download_filename": "yun_wechat_uos.zip",
                 "md5": "0dc7aac688b177b35fdb17b5ed5af84e"
             },
@@ -162,7 +162,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_lakala.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_lakala.zip",
                 "download_filename": "jk_lakala.zip",
                 "md5": "a33807b2eb48354426d1c670b829906c"
             },
@@ -180,7 +180,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_qqpay.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_qqpay.zip",
                 "download_filename": "yun_qqpay.zip",
                 "md5": "ae900d4566eb76b9a1e096967df8be0c"
             },
@@ -198,7 +198,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/yun_wechat_imac.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_imac.zip",
                 "download_filename": "yun_wechat_imac.zip",
                 "md5": "672f5b3b57b8f1bd56236d47f7f6cef5"
             }, 
@@ -216,7 +216,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_wmwechat_message.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wmwechat_message.zip",
                 "download_filename": "jk_wmwechat_message.zip",
                 "md5": "129180e03f20a6f0c553c6a6b30bb22f"
             },  
@@ -234,7 +234,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/alipay_bill.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/alipay_bill.zip",
                 "download_filename": "alipay_bill.zip",
                 "md5": "18e861db208b527b9dfeb627e6c3fa42"
             },
@@ -252,7 +252,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jk_yinsheng.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_yinsheng.zip",
                 "download_filename": "jk_yinsheng.zip",
                 "md5": "e1eba9b42f0e79b4e2f7825405833246"
             },
@@ -270,7 +270,7 @@
                 "external_repository_url": "",
                 "update_time": 1732716320,
                 "version": "1.4.5",
-                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/master/plugins/jdsyt.zip",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jdsyt.zip",
                 "download_filename": "jdsyt.zip",
                 "md5": "625b62efb7a005ab210f5c50e3cc78f5"
             }
