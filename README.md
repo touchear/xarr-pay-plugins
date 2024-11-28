@@ -3,6 +3,16 @@ XArrPay 非官方收集的插件仓库
 
 欢迎提交 PR
 
+# 使用方式
+在XArrPay 商户版中填写插件源
+https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/package.json
+国内用户可设置加速地址
+https://ghp.ci/
+或使用源地址为
+https://ghp.ci/https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/package.json
+
+
+
 # 使用声明
 
 本仓库所包含的代码和内容仅供学习与研究用途。我们无法保证本仓库中的内容不涉及违法或侵犯他人权益。在使用本仓库内的任何内容时，请您务必遵守相关法律法规，并自行承担所有可能的后果。
