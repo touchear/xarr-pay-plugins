@@ -52,11 +52,11 @@
                 "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1732716320,
-                "version": "1.4.5",
+                "update_time": 1734968806,
+                "version": "1.4.6",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_alipay.zip",
                 "download_filename": "jk_alipay.zip",
-                "md5": "964986225c5daf2e2c93aab2ec93ec83"
+                "md5": "cd4df0183b97afac3385ec1a34596c12"
             },
             {
                 "uuid": "1b0ecb5e-fdfd-4cfa-85de-28d24242b781",
@@ -88,11 +88,11 @@
                 "preview_img_url": "https://cdn.xdau.cn/logo1-1.svg",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1732716320,
-                "version": "1.4.5",
+                "update_time": 1734968765,
+                "version": "1.4.6",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_alipay_xd.zip",
                 "download_filename": "yun_alipay_xd.zip",
-                "md5": "6c707f80c9c3f5246b54cc0b86b6af1e"
+                "md5": "69fa3209bf482c0283a3b0d90dc74603"
             },
             {
                 "uuid": "91367318-93c0-446a-a9b0-cbbbcbd75181",
@@ -232,11 +232,11 @@
                 "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1732716320,
-                "version": "1.4.5",
+                "update_time": 1734968765,
+                "version": "1.4.6",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/alipay_bill.zip",
                 "download_filename": "alipay_bill.zip",
-                "md5": "18e861db208b527b9dfeb627e6c3fa42"
+                "md5": "fc40bcab7e45d71ad24f28886046969e"
             },
             {
                 "uuid": "dc844c62-99e9-48eb-b8ca-7b5b500b5e0c",
