@@ -1,5 +1,5 @@
 # XArrPay 商户版插件仓库源
-XArrPay 非官方收集的插件仓库
+XArrPay 非官方收集的第三方插件仓库
 
 欢迎提交 PR
 
