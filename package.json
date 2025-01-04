@@ -291,6 +291,42 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/wechat_dianyuan.zip",
                 "download_filename": "wechat_dianyuan.zip",
                 "md5": "aaee2de8be04665b392f0f3c70c823b3"
+            },
+            {
+                "uuid": "70ef468b-b1e1-42fa-8902-995e6cfb5b31",
+                "name": "jk_wechat_linkqrcode_xd",
+                "title": "微信收款连接-XD监控端",
+                "type": 1,
+                "description": "微信收款连接-XD监控端",
+                "author": "",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1735967459,
+                "version": "1.4.6",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_linkqrcode_xd.zip",
+                "download_filename": "jk_wechat_linkqrcode_xd.zip",
+                "md5": "ce614f9c337d638aeefa7d08cd64c04d"
+            },
+            {
+                "uuid": "9c6b6bfd-0791-4eef-ae84-a46df458c6dc",
+                "name": "jk_wechat_linkqrcode_xd",
+                "title": "微信收款单-XD监控端",
+                "type": 1,
+                "description": "微信收款单-XD监控端",
+                "author": "",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1735967459,
+                "version": "1.4.6",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_skd_xd.zip",
+                "download_filename": "jk_wechat_skd_xd.zip",
+                "md5": "1129cd7e58585b5e469392a93d73cfb2"
             }
         ]
     }
