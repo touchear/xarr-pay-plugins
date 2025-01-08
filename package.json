@@ -322,11 +322,11 @@
                 "preview_img_url": "",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1735967459,
-                "version": "1.4.6",
+                "update_time": 1736351928,
+                "version": "1.4.6.5",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_skd_xd.zip",
                 "download_filename": "jk_wechat_skd_xd.zip",
-                "md5": "1129cd7e58585b5e469392a93d73cfb2"
+                "md5": "fc4068d61e9a7a3a8ef5cd9bb3d9d1e6"
             }
         ]
     }
