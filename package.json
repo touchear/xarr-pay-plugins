@@ -327,6 +327,24 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_skd_xd.zip",
                 "download_filename": "jk_wechat_skd_xd.zip",
                 "md5": "f67f4cce4f4bb7c6820ea0a49e5f8952"
+            },
+            {
+                "uuid": "eaba9d62-a9db-478c-9211-ec7bfcc5dcae",
+                "name": "jk_wechat_gmdt_xd",
+                "title": "微信个码动态-XD监控端",
+                "type": 1,
+                "description": "微信个码动态-XD监控端",
+                "author": "",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1736352853,
+                "version": "1.4.6",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_gmdt_xd.zip",
+                "download_filename": "jk_wechat_gmdt_xd.zip",
+                "md5": "77647215eb77a29a98cbdb1a1924af97"
             }
         ]
     }
