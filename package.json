@@ -178,11 +178,11 @@
                 "preview_img_url": "https://imgcache.gtimg.cn/channel/qpay/buss/asset/pay/img/global/header_logo.png",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1732716320,
-                "version": "1.4.5",
+                "update_time": 1736435008,
+                "version": "1.4.6",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_qqpay.zip",
                 "download_filename": "yun_qqpay.zip",
-                "md5": "ae900d4566eb76b9a1e096967df8be0c"
+                "md5": "730700337bafba3cc35703f6be4a78b8"
             },
             {
                 "uuid": "9c748f77-3e03-49bf-96d8-7d2907c19234",
