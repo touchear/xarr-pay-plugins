@@ -214,11 +214,11 @@
                 "preview_img_url": "https://cdn.xdau.cn/logo1-1.svg",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1732716320,
-                "version": "1.4.5",
+                "update_time": 1736521398,
+                "version": "1.4.6.5",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wmwechat_message.zip",
                 "download_filename": "jk_wmwechat_message.zip",
-                "md5": "129180e03f20a6f0c553c6a6b30bb22f"
+                "md5": "8a1c4e18674b4b7385a6bd60f7a48e11"
             },  
             {
                 "uuid": "af92b79b-2a57-405b-9a4c-55d70aba28dd",
@@ -322,11 +322,11 @@
                 "preview_img_url": "",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1736489148,
+                "update_time": 1736521398,
                 "version": "1.4.6.5",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_skd_xd.zip",
                 "download_filename": "jk_wechat_skd_xd.zip",
-                "md5": "40d85ff52b86249ece45bc25c0d20777"
+                "md5": "1969f104f0710684c109712efd60c171"
             },
             {
                 "uuid": "eaba9d62-a9db-478c-9211-ec7bfcc5dcae",
