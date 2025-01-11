@@ -8,12 +8,23 @@ XArrPay 非官方收集的第三方插件仓库
 在XArrPay 商户版中填写插件源
 `https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/package.json`
 
-国内用户可设置加速地址
+国内用户可在系统设置中设置加速地址
 `https://ghp.ci/`
 
-或使用源地址为
-`https://ghp.ci/https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/package.json`
 
+# 程序集
+所有依赖程序都在 `https://github.com/touchear/xarr-pay-plugins/releases`
+
+### X.xxx.apk (推荐)
+X 转发器: 安卓监控端
+全新全能通知管理软件
+
+### SmsF_xxx.apk
+短信转发器: 安卓监控端
+此软件是开源程序
+
+### xarr-xxx
+此为对应的 Go 网关程序,使用方式在宝塔使用go项目创建即可 (直接下载后上传使用主程序 什么配置都不需要改)
 
 
 # 使用声明
