@@ -107,10 +107,10 @@
                 "external_support_url": "",
                 "external_repository_url": "",
                 "update_time": 1732716320,
-                "version": "1.4.5",
+                "version": "1.4.6",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_xd.zip",
                 "download_filename": "yun_wechat_xd.zip",
-                "md5": "719c3fe1cd5e0996f794ea95a37dbe32"
+                "md5": "a429493456e8efa6e317b97048eec54f"
             },
             {
                 "uuid": "ec30eaee-76c9-45c6-95ee-ff98e43f1d9c",
