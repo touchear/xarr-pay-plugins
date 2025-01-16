@@ -196,11 +196,11 @@
                 "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1735484373,
-                "version": "1.4.6",
+                "update_time": 1737020862,
+                "version": "1.4.6.7",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_imac.zip",
                 "download_filename": "yun_wechat_imac.zip",
-                "md5": "25e62dbfd2ad38ea9ea10879e4834c57"
+                "md5": "d1f295e8867997ee8d0f65e806587d5f"
             }, 
             {
                 "uuid": "9c962a5c-3234-4c20-ab5f-34092ec5aff2",
