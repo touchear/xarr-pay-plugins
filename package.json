@@ -214,11 +214,11 @@
                 "preview_img_url": "https://cdn.xdau.cn/logo1-1.svg",
                 "external_support_url": "",
                 "external_repository_url": "",
-                "update_time": 1736521398,
-                "version": "1.4.6.5",
+                "update_time": 1744181246,
+                "version": "1.4.7.3",
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wmwechat_message.zip",
                 "download_filename": "jk_wmwechat_message.zip",
-                "md5": "8a1c4e18674b4b7385a6bd60f7a48e11"
+                "md5": "9e8414dbbd9468801d2285ad2e1e7593"
             },  
             {
                 "uuid": "af92b79b-2a57-405b-9a4c-55d70aba28dd",
