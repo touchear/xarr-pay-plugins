@@ -345,6 +345,24 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_gmdt_xd.zip",
                 "download_filename": "jk_wechat_gmdt_xd.zip",
                 "md5": "77647215eb77a29a98cbdb1a1924af97"
+            },
+            {
+                "uuid": "f4134794-e10f-436b-b93b-6f330703846e",
+                "name": "yun_wechat_ipad",
+                "title": "微信IPAD",
+                "type": 1,
+                "description": "微信IPAD",
+                "author": "匿名网友",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1746627704,
+                "version": "1.4.7.9",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/jk_wechat_gmdt_xd.zip",
+                "download_filename": "yun_wechat_ipad.zip",
+                "md5": "0001faf427326248563806ecb7cb9ec2"
             }
         ]
     }
