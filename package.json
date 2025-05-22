@@ -363,6 +363,24 @@
                 "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_ipad.zip",
                 "download_filename": "yun_wechat_ipad.zip",
                 "md5": "32711a2f04425a466251fba27357de80"
+            },
+            {
+                "uuid": "da4bd423-5ebb-42d8-9161-b66405853e2c",
+                "name": "yun_qqpay_xd",
+                "title": "QQ云-XD",
+                "type": 1,
+                "description": "QQ云",
+                "author": "匿名网友",
+                "homepage": "",
+                "preview_url": "",
+                "preview_img_url": "https://imgcache.gtimg.cn/channel/qpay/buss/asset/pay/img/global/header_logo.png",
+                "external_support_url": "",
+                "external_repository_url": "",
+                "update_time": 1747904392,
+                "version": "1.4.8.3",
+                "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_qqpay_xd.zip",
+                "download_filename": "yun_qqpay_xd.zip",
+                "md5": "c2edaa959e6e21a5fcccf43bbd0422b6"
             }
         ]
     }
