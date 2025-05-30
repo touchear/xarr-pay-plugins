@@ -11,48 +11,55 @@ function calculateMD5(filePath) {
   return hashSum.digest('hex');
 }
 
-// 获取文件的最后 Git 提交时间戳（秒）
-function getLastCommitTime(filePath) {
+// 多种方式获取文件时间
+function getFileTime(filePath) {
+  const times = {
+    git: null,
+    gitAuthor: null,
+    gitCommitter: null,
+    fileCreation: null,
+    fileModification: null,
+    current: Math.floor(Date.now() / 1000)
+  };
+  
+  const relativePath = path.relative(process.cwd(), filePath);
+  
+  // 1. 尝试获取Git提交时间
   try {
-    // 获取绝对路径
-    const absolutePath = path.resolve(filePath);
-    // 从仓库根目录计算相对路径
-    const gitRootDir = execSync('git rev-parse --show-toplevel').toString().trim();
-    const repoRelativePath = path.relative(gitRootDir, absolutePath);
+    times.git = parseInt(execSync(`git log -1 --format=%at -- "${relativePath}"`).toString().trim(), 10) || null;
+    times.gitAuthor = parseInt(execSync(`git log -1 --format=%at -- "${relativePath}"`).toString().trim(), 10) || null;
+    times.gitCommitter = parseInt(execSync(`git log -1 --format=%ct -- "${relativePath}"`).toString().trim(), 10) || null;
     
-    // 检查文件是否被 Git 跟踪
-    const isTracked = execSync(`git ls-files --error-unmatch "${repoRelativePath}" 2>/dev/null || echo "untracked"`).toString().trim();
-    
-    if (isTracked === "untracked") {
-      console.log(`警告: 文件 ${repoRelativePath} 未被 Git 跟踪，使用文件修改时间`);
-      // 使用文件的修改时间作为备选
-      const stats = fs.statSync(filePath);
-      return Math.floor(stats.mtime.getTime() / 1000);
-    }
-    
-    // 使用 git log 获取文件最后一次提交的时间戳
-    const output = execSync(`git log -1 --format=%at -- "${repoRelativePath}"`).toString().trim();
-    
-    if (output) {
-      console.log(`获取到文件 ${repoRelativePath} 的 Git 提交时间: ${new Date(parseInt(output, 10) * 1000).toISOString()}`);
-      return parseInt(output, 10);
-    } else {
-      console.log(`警告: 文件 ${repoRelativePath} 在 Git 中无提交历史，使用文件修改时间`);
-      const stats = fs.statSync(filePath);
-      return Math.floor(stats.mtime.getTime() / 1000);
-    }
+    // 打印诊断信息
+    console.log(`文件 ${relativePath} 的Git信息:`);
+    console.log(`- 提交时间戳: ${times.git} (${times.git ? new Date(times.git * 1000).toISOString() : 'N/A'})`);
+    console.log(`- 作者时间戳: ${times.gitAuthor} (${times.gitAuthor ? new Date(times.gitAuthor * 1000).toISOString() : 'N/A'})`);
+    console.log(`- 提交者时间戳: ${times.gitCommitter} (${times.gitCommitter ? new Date(times.gitCommitter * 1000).toISOString() : 'N/A'})`);
   } catch (error) {
-    console.error(`获取文件 ${filePath} 的提交时间失败:`, error.message);
-    // 使用文件的修改时间作为备选
-    try {
-      const stats = fs.statSync(filePath);
-      return Math.floor(stats.mtime.getTime() / 1000);
-    } catch (e) {
-      // 实在无法获取时间，使用当前时间
-      return Math.floor(Date.now() / 1000);
-    }
+    console.log(`无法获取文件 ${relativePath} 的Git提交时间: ${error.message}`);
   }
+  
+  // 2. 获取文件系统时间
+  try {
+    const stats = fs.statSync(filePath);
+    times.fileCreation = Math.floor(stats.birthtime.getTime() / 1000);
+    times.fileModification = Math.floor(stats.mtime.getTime() / 1000);
+    
+    console.log(`文件 ${relativePath} 的文件系统时间:`);
+    console.log(`- 创建时间: ${new Date(times.fileCreation * 1000).toISOString()}`);
+    console.log(`- 修改时间: ${new Date(times.fileModification * 1000).toISOString()}`);
+  } catch (error) {
+    console.log(`无法获取文件 ${relativePath} 的文件系统时间: ${error.message}`);
+  }
+  
+  // 3. 根据可用性选择最合适的时间
+  // 优先级: Git提交时间 > 文件修改时间 > 文件创建时间 > 当前时间
+  const bestTime = times.git || times.fileModification || times.fileCreation || times.current;
+  console.log(`选择的最佳时间: ${new Date(bestTime * 1000).toISOString()}`);
+  
+  return bestTime;
 }
+
 // 读取package.json
 const packageJsonPath = path.join(process.cwd(), 'package.json');
 const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
@@ -71,7 +78,7 @@ for (const zipFile of pluginFiles) {
   const zipPath = path.join(pluginsDir, zipFile);
   const pluginName = path.basename(zipFile, '.zip');
   const md5 = calculateMD5(zipPath);
-  const commitTime = getLastCommitTime(zipPath);
+  const updateTime = getFileTime(zipPath);
   
   // 查找与ZIP文件名匹配的插件条目
   const pluginIndex = packageJson.data.plugins.findIndex(plugin => plugin.name === pluginName);
@@ -79,12 +86,14 @@ for (const zipFile of pluginFiles) {
   if (pluginIndex !== -1) {
     // 更新现有插件信息
     packageJson.data.plugins[pluginIndex].md5 = md5;
-    packageJson.data.plugins[pluginIndex].update_time = commitTime;
-    console.log(`更新插件信息: ${pluginName}, MD5: ${md5}, 更新时间: ${new Date(commitTime * 1000).toISOString()}`);
+    packageJson.data.plugins[pluginIndex].update_time = updateTime;
+    console.log(`更新插件信息: ${pluginName}, MD5: ${md5}, 更新时间: ${new Date(updateTime * 1000).toISOString()}`);
   } else {
     console.log(`未找到匹配的插件条目: ${pluginName}`);
     // 可选：如果需要，可以在这里创建新的插件条目
   }
+  
+  console.log('-------------------');
 }
 
 // 写回package.json
