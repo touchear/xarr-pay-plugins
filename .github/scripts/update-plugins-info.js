@@ -10,9 +10,10 @@ function calculateMD5(filePath) {
   return hashSum.digest('hex');
 }
 
-// 获取当前时间的UNIX时间戳（秒）
-function getCurrentTimestamp() {
-  return Math.floor(Date.now() / 1000);
+// 获取文件的修改时间戳（秒）
+function getFileModificationTime(filePath) {
+  const stats = fs.statSync(filePath);
+  return Math.floor(stats.mtime.getTime() / 1000);
 }
 
 // 读取package.json
@@ -33,7 +34,7 @@ for (const zipFile of pluginFiles) {
   const zipPath = path.join(pluginsDir, zipFile);
   const pluginName = path.basename(zipFile, '.zip');
   const md5 = calculateMD5(zipPath);
-  const currentTime = getCurrentTimestamp();
+  const fileUpdateTime = getFileModificationTime(zipPath);
   
   // 查找与ZIP文件名匹配的插件条目
   const pluginIndex = packageJson.data.plugins.findIndex(plugin => plugin.name === pluginName);
@@ -41,8 +42,8 @@ for (const zipFile of pluginFiles) {
   if (pluginIndex !== -1) {
     // 更新现有插件信息
     packageJson.data.plugins[pluginIndex].md5 = md5;
-    packageJson.data.plugins[pluginIndex].update_time = currentTime;
-    console.log(`更新插件信息: ${pluginName}, MD5: ${md5}`);
+    packageJson.data.plugins[pluginIndex].update_time = fileUpdateTime;
+    console.log(`更新插件信息: ${pluginName}, MD5: ${md5}, 更新时间: ${new Date(fileUpdateTime * 1000).toISOString()}`);
   } else {
     console.log(`未找到匹配的插件条目: ${pluginName}`);
     // 可选：如果需要，可以在这里创建新的插件条目
