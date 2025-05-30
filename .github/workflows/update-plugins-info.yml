@@ -1,0 +1,32 @@
+name: Update Plugins Info
+
+on:
+  push:
+    paths:
+      - 'plugins/**'
+  workflow_dispatch:
+
+jobs:
+  update-package:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Update package.json
+        run: |
+          node .github/scripts/update-plugins-info.js
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git diff --staged --quiet || git commit -m "Auto update plugins info in package.json"
+          git push
