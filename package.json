@@ -232,11 +232,11 @@
         "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
         "external_support_url": "",
         "external_repository_url": "",
-        "update_time": 1750950289,
+        "update_time": 1750950873,
         "version": "1.4.8.1",
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/alipay_bill.zip",
         "download_filename": "alipay_bill.zip",
-        "md5": "6834a94fedde54a566107daa8eebef86"
+        "md5": "1b382bc0dfa91b8413e226c21b7d72c5"
       },
       {
         "uuid": "dc844c62-99e9-48eb-b8ca-7b5b500b5e0c",
