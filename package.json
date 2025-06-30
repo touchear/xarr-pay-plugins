@@ -232,11 +232,11 @@
         "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
         "external_support_url": "",
         "external_repository_url": "",
-        "update_time": 1751267405,
+        "update_time": 1751291538,
         "version": "1.4.8.1",
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/alipay_bill.zip",
         "download_filename": "alipay_bill.zip",
-        "md5": "b6cb0663c68c6dca710d82735408506f"
+        "md5": "28099ef44bfb370fc421679a42a088d0"
       },
       {
         "uuid": "dc844c62-99e9-48eb-b8ca-7b5b500b5e0c",
@@ -358,11 +358,11 @@
         "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
         "external_support_url": "",
         "external_repository_url": "",
-        "update_time": 1747230856,
+        "update_time": 1751291538,
         "version": "1.4.8.1",
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_ipad.zip",
         "download_filename": "yun_wechat_ipad.zip",
-        "md5": "32711a2f04425a466251fba27357de80"
+        "md5": "685b1220818450209c7ba4de1d209d8c"
       },
       {
         "uuid": "da4bd423-5ebb-42d8-9161-b66405853e2c",
