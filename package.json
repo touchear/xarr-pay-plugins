@@ -358,11 +358,11 @@
         "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
         "external_support_url": "",
         "external_repository_url": "",
-        "update_time": 1751291538,
+        "update_time": 1751537096,
         "version": "1.4.8.1",
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_ipad.zip",
         "download_filename": "yun_wechat_ipad.zip",
-        "md5": "685b1220818450209c7ba4de1d209d8c"
+        "md5": "9c1d77e28fe5842ed7fc2cfb1b594c21"
       },
       {
         "uuid": "da4bd423-5ebb-42d8-9161-b66405853e2c",
