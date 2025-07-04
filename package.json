@@ -399,6 +399,24 @@
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_alipay_pid_xd.zip",
         "download_filename": "yun_alipay_pid_xd.zip",
         "md5": "e0b5c218914df1e1cf0b913bb9f55e35"
+      },
+      {
+        "uuid": "44458b5d-67a3-4024-9ba8-0c7456016aa2",
+        "name": "yun_wechat_ipad_xd",
+        "title": "微信IPAD-XD",
+        "type": 1,
+        "description": "微信IPAD-XD",
+        "author": "闲蛋",
+        "homepage": "",
+        "preview_url": "",
+        "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
+        "external_support_url": "",
+        "external_repository_url": "",
+        "update_time": 1751623158,
+        "version": "1.4.8.13",
+        "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_ipad_xd.zip",
+        "download_filename": "yun_wechat_ipad_xd.zip",
+        "md5": "e2671e7c485bbce7993e4e2c17cce92c"
       }
     ]
   }
