@@ -381,42 +381,6 @@
         "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_qqpay_xd.zip",
         "download_filename": "yun_qqpay_xd.zip",
         "md5": "c2edaa959e6e21a5fcccf43bbd0422b6"
-      },
-      {
-        "uuid": "c7136dd9-ddb6-4816-bccb-e9538beb1c8a",
-        "name": "yun_alipay_pid_xd",
-        "title": "支付宝-PID免输-XD",
-        "type": 1,
-        "description": "支付宝-PID免输-XD",
-        "author": "匿名网友",
-        "homepage": "",
-        "preview_url": "",
-        "preview_img_url": "https://apps.xarr.cn/assets/images/alipay_logo.gif",
-        "external_support_url": "",
-        "external_repository_url": "",
-        "update_time": 1747984393,
-        "version": "1.4.8.3",
-        "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_alipay_pid_xd.zip",
-        "download_filename": "yun_alipay_pid_xd.zip",
-        "md5": "e0b5c218914df1e1cf0b913bb9f55e35"
-      },
-      {
-        "uuid": "44458b5d-67a3-4024-9ba8-0c7456016aa2",
-        "name": "yun_wechat_ipad_xd",
-        "title": "微信IPAD-XD",
-        "type": 1,
-        "description": "微信IPAD-XD",
-        "author": "闲蛋",
-        "homepage": "",
-        "preview_url": "",
-        "preview_img_url": "https://apps.xarr.cn/assets/images/wxpay.png",
-        "external_support_url": "",
-        "external_repository_url": "",
-        "update_time": 1751607408,
-        "version": "1.4.8.13",
-        "download_url": "https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/plugins/yun_wechat_ipad_xd.zip",
-        "download_filename": "yun_wechat_ipad_xd.zip",
-        "md5": "04d11b0973a76fdf6fffdc24debce71f"
       }
     ]
   }
